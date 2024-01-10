@@ -1,0 +1,79 @@
+.div6 .resume_holder{
+    margin-left: 6rem;
+}
+.div6 .personal_small{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.resume_holder .personal_small input[type='email'],input[type='text']{
+
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    width: 16rem;
+    text-align: center;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:1rem ;
+}
+.resume_holder textarea{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    width: 16rem;
+    text-align: center;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:1rem ;
+}
+.resume_holder input[type='submit'],input[type='reset'],input[type="button"]{
+    height:2rem;
+    width: 4rem;
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);;
+    color: var(--text-secondary);
+    padding-bottom: 0.3rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 2px solid var(--text-secondary);
+    margin: 1rem;
+}
+.resume_holder input[type='submit'],input[type='reset'],input[type="button"]:hover{
+    background-color: var(--text-secondary);
+    color: white;
+    border: 2px solid white;
+}
+.resume_holder input[type='date'],input[type='number'],input[type="year"]{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    width: 10rem;
+    text-align: center;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:1rem ;
+}
+.resume_holder .Personal ,.Educational,.Experience{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.resume_holder .title{
+    color: var(--text-secondary);
+    margin: 0.5rem;
+    text-align: center;
+}
+.resume_holder .btns{
+    text-align: center;
+}
+.resume_holder .experience-list input[type='date'],input[type='text']{
+    width: 10rem;
+}

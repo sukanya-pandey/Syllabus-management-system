@@ -1,0 +1,279 @@
+.update_body,.update_subject_body,.delete_body,.delete_subject_body,.create_body,.create_subject_body{
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.create_body h3,.create_subject_body h3,.update_body h3,.delete_subject_body h3,.delete_body h3,.update_subject_body h3{
+    margin-top:0rem;
+    text-align: center;
+    font-size: 1.4rem ;
+}
+/* Users */
+
+/*Create body  */
+.create_body form input[type="text"],input[type="email"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.create_body{
+    display: none;
+}
+.create_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.create_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+    border: 1px solid white;
+}
+/* End of create body */
+/*Update body  */
+.update_body{
+    display: none;
+}
+.update_body form input,.create_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.update_body form input[type="text"]{
+    width: 11rem;
+}
+.update_body form input[type="text"],input[type="email"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.update_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.update_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+    border: 1px solid white;
+}
+/* End of update body */
+/*Delete body  */
+.delete_body{
+    display: none;
+}
+.delete_body form input,.create_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.delete_body form input[type="text"]{
+    width: 11rem;
+}
+.delete_body form input[type="text"],input[type="email"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.delete_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.delete_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+   
+}
+/* End of delete body */
+
+/* End of USERS */
+
+/*SUBJECT  */
+/* create subject */
+.create_subject_body{
+    display: none;
+}
+.create_subject_body form input,.create_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.create_subject_body form input[type="text"]{
+    width: 11rem;
+}
+.create_subject_body form input[type="text"],input[type="email"],input[type="number"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.create_subject_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.create_subject_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+   
+}
+/* End of create subject */
+/* delete subject */
+.delete_subject_body{
+    display: none;
+}
+.delete_subject_body form input,.create_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.delete_subject_body form input[type="text"]{
+    width: 11rem;
+}
+.delete_subject_body form input[type="text"],input[type="email"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.delete_subject_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.delete_subject_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+   
+}
+/* End of delete subject */
+/* update subject*/
+.update_subject_body{
+    display: none;
+}
+.update_subject_body form input,.create_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.update_subject_body form input[type="text"]{
+    width: 11rem;
+}
+.update_subject_body form input[type="text"],input[type="email"]{
+    width: 15rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: 1rem;
+}
+.update_subject_body form input[type="button"]{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.update_subject_body form input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+    border: 1px solid white;
+}
+/* End update subject */
+/* End of SUBJECT */
+/* FLag */
+.flags .strips{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.flag input[type="button"]{
+    font-family: 'Quintessential', cursive;
+    width:6rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid blue;
+    background-color: hsl(240, 32%, 91%);
+    border-radius: 2rem;
+    color: blue;
+}
+.flag input[type="button"]:hover{
+    background-color: blue;
+    color: white;
+}
+/* End of flag */
+@media only screen and (max-width:600px){
+    .navbar{
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+        transition: none;
+    }
+    .navbar:hover{
+        width:100vw;
+    }
+    .nav-link{
+        transition: none;
+    } 
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .logo {
+        display: visible;
+    }
+    .logo-min{
+        display: none;
+    }
+    .nav-link{
+        justify-content: center;
+    } 
+    main{
+        margin: 0;
+    }
+    .nav-link > .link-text:hover{
+        display: none;
+    }
+    .nav_opt .container{
+        margin-left: 1rem;
+    }
+    .UDR-holder{
+        margin-left: 1rem;
+    }
+    .CUD_body{
+        height: 20rem;
+    }
+}

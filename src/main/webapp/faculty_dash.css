@@ -1,0 +1,264 @@
+.div2,.div3,.div5,.div4,.div6{
+	margin-left:6rem;
+    display: none;
+}
+/* Notes */
+/* Notes */
+.UDR-holder{
+    margin-left: 5rem;
+    display:flex;
+    justify-content: center;
+}
+.UDR{
+    width: 90%;    
+}
+.button-holder{
+    display:flex;
+    width: fit-content;
+    margin: auto;
+    
+}
+.button-holder a{
+    height:1.5rem;
+    margin: 1rem;
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);;
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 2px solid var(--text-secondary);
+}
+.button-holder a:hover{
+    background-color: var(--text-secondary);
+    color: white;
+    border: 2px solid white;
+}
+.UDR_body{
+    width: 100%;
+    height: 25rem;
+    border: 2px solid black;
+    text-align: center;
+}
+.default h1{
+    color: hsl(240, 32%, 91%);
+}
+.upload_body,.download_body,.request_body{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.upload_body{
+    display: none;
+}
+.upload_body h3,.download_body h3,.request_body h3{
+    margin-top:0rem;
+}
+.upload_body form input,.request_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    margin:0.5rem ;
+}
+.upload_body form input[type="text"]{
+    width: 11rem;
+}
+/* Upload end */
+/* Download */
+.download_body{
+    display: none;
+}
+#dropdown{
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-weight: 600;
+    background-color: hsl(240, 32%, 91%);
+    border:2px solid var(--text-secondary);
+    border-radius: 4rem;
+}
+.download_body form input{
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    border:1px solid var(--text-secondary);;
+    border-radius: 4rem;
+    font-weight: 600;
+    margin:1rem ;
+}
+.dwn_notes{
+    border:1px solid var(--text-secondary);
+    height: 19rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.dwn_notes .cards{
+    height: 11rem;
+    width:8rem;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    margin: 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:hsl(240, 32%, 91%) ;
+}
+.dwn_notes .cards input{
+    width: 5rem;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    margin: 0 !important;
+    padding: 0;
+}
+.download_body input[type='submit']:hover,.request_body input[type='submit']:hover{
+    background-color: var(--text-secondary);
+    color: white;
+    border: 1px solid white;
+}
+
+.dwn_notes .cards #sub_name{
+    background-color: white;
+    height: 2.5rem;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-top:0 ;
+    padding-top: 0.6rem;
+}
+.cards #decription{
+    margin-top: -0.4rem;
+}
+/* Download end */
+/* Request */
+.request_body form input{
+    font-size: 1rem;
+    font-weight: 550;
+    text-align: center;
+}
+.request_body{
+    display: none;
+}
+/* Request end */
+.status{
+    margin: 2rem;
+}
+.status_green{
+    background-color: rgb(184, 224, 122);
+    display: none;
+}
+.status_red{
+    background-color: rgb(241, 135, 135);
+    display:none;
+}
+/* Notes End */
+
+/* Flag  */
+.flag_body{
+    margin-left: 6rem;
+    
+}
+.flag{
+    width: 94%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2rem;
+}
+.flag_body select{
+    width: 10rem;
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);
+    color: var(--text-secondary);
+    outline: none;
+    font-size: 1rem;
+    border:2px solid var(--text-secondary);;
+    border-radius: 4rem;
+    font-weight: 600;
+    margin:2rem ;
+}
+.flags{
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    border:2px solid red;
+    height: 22rem;
+    overflow-y: scroll;
+}
+.flags .strips{
+	 display: flex;
+  	justify-content: space-between ;
+    margin: 0.4rem;
+    border:2px solid blue;
+    background-color: aliceblue;
+    height: 3rem;
+}
+.flags .strips span{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* Flag end */
+
+/* Mark complete */
+.mark{
+    margin-left: 6rem;
+    width: 92%;
+    height: fit-content;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.mark .button_holder a{
+    text-decoration: none;
+    height:1.5rem;
+    margin: 1.5rem;
+    font-family: 'Quintessential', cursive;
+    background-color:hsl(240, 32%, 91%);;
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    border: 2px solid var(--text-secondary);
+}
+.mark a:hover{
+    background-color: var(--text-secondary);
+    color: white;
+    border: 2px solid white;
+}
+.mark_body,.unmark_body{
+    margin: 2rem;
+    width: calc(100%-2rem);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    text-align: center;
+    height: fit-content;
+    border: 2px solid black;
+    text-align: center;
+}
+.unmark_body form ,input,.mark_body form,input{
+    margin: 2rem;
+}
+.unmark_body input[type="button"],.mark_body input[type="button"]{
+    font-family: 'Quintessential', cursive;
+    width:6rem;
+    height: fit-content;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    font-weight: 600;
+    border: 1px solid blue;
+    background-color: hsl(240, 32%, 91%);
+    border-radius: 2rem;
+    color: blue;
+}
+/* End of mark complete */
